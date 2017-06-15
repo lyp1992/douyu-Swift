@@ -14,6 +14,7 @@
 		C10087F71EF2373500300270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C10087F51EF2373500300270 /* LaunchScreen.storyboard */; };
 		C10088021EF2373500300270 /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10088011EF2373500300270 /* __Tests.swift */; };
 		C100880D1EF2373500300270 /* __UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100880C1EF2373500300270 /* __UITests.swift */; };
+		C10B37B31EF26377001F27BB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10B37B21EF26377001F27BB /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C10088081EF2373500300270 /* 斗鱼UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗鱼UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C100880C1EF2373500300270 /* __UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __UITests.swift; sourceTree = "<group>"; };
 		C100880E1EF2373500300270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C10B37B21EF26377001F27BB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		C10087EB1EF2373500300270 /* 斗鱼 */ = {
 			isa = PBXGroup;
 			children = (
+				C10B37B11EF26332001F27BB /* 哈哈哈 */,
 				C10087EC1EF2373500300270 /* AppDelegate.swift */,
 				C10087EE1EF2373500300270 /* ViewController.swift */,
 				C10087F01EF2373500300270 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				C100880E1EF2373500300270 /* Info.plist */,
 			);
 			path = "斗鱼UITests";
+			sourceTree = "<group>";
+		};
+		C10B37B11EF26332001F27BB /* 哈哈哈 */ = {
+			isa = PBXGroup;
+			children = (
+				C10B37B21EF26377001F27BB /* TableViewController.swift */,
+			);
+			path = "哈哈哈";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C10087EF1EF2373500300270 /* ViewController.swift in Sources */,
+				C10B37B31EF26377001F27BB /* TableViewController.swift in Sources */,
 				C10087ED1EF2373500300270 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +528,7 @@
 				C10088131EF2373500300270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C10088141EF2373500300270 /* Build configuration list for PBXNativeTarget "斗鱼Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				C10088161EF2373500300270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C10088171EF2373500300270 /* Build configuration list for PBXNativeTarget "斗鱼UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				C10088191EF2373500300270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
