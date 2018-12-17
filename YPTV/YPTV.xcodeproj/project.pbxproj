@@ -1,0 +1,1051 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26DED41EE31958DFB853B3CA /* Pods_YPTVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB895E500620100062F87B82 /* Pods_YPTVUITests.framework */; };
+		994D01EB21C0AA00007D2CF1 /* HomeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D01EA21C0AA00007D2CF1 /* HomeType.swift */; };
+		994D01EE21C0AB1A007D2CF1 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D01ED21C0AB1A007D2CF1 /* BaseModel.swift */; };
+		994D01F021C0AC1B007D2CF1 /* AnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D01EF21C0AC1B007D2CF1 /* AnchorViewController.swift */; };
+		994D01F221C0B8EA007D2CF1 /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = 994D01F121C0B8EA007D2CF1 /* types.plist */; };
+		994D01F521C0BBE0007D2CF1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D01F421C0BBE0007D2CF1 /* HomeViewModel.swift */; };
+		994D01F721C0DA4F007D2CF1 /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D01F621C0DA4F007D2CF1 /* AnchorModel.swift */; };
+		99806C2C21BE11AE00A76335 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99806C2B21BE11AE00A76335 /* NetworkTool.swift */; };
+		99EF691D21BE001200DDC31C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF691C21BE001200DDC31C /* AppDelegate.swift */; };
+		99EF691F21BE001200DDC31C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF691E21BE001200DDC31C /* MainViewController.swift */; };
+		99EF692221BE001200DDC31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99EF692021BE001200DDC31C /* Main.storyboard */; };
+		99EF692421BE001400DDC31C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EF692321BE001400DDC31C /* Assets.xcassets */; };
+		99EF692721BE001400DDC31C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99EF692521BE001400DDC31C /* LaunchScreen.storyboard */; };
+		99EF693221BE001400DDC31C /* YPTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF693121BE001400DDC31C /* YPTVTests.swift */; };
+		99EF693D21BE001400DDC31C /* YPTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF693C21BE001400DDC31C /* YPTVUITests.swift */; };
+		99EF696621BE064200DDC31C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF696521BE064200DDC31C /* HomeViewController.swift */; };
+		99EF696821BE065900DDC31C /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF696721BE065900DDC31C /* RankViewController.swift */; };
+		99EF696A21BE066800DDC31C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF696921BE066800DDC31C /* ProfileViewController.swift */; };
+		99EF696C21BE067900DDC31C /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF696B21BE067900DDC31C /* DiscoverViewController.swift */; };
+		99EF696E21BE069F00DDC31C /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF696D21BE069F00DDC31C /* LiveViewController.swift */; };
+		99EF697121BE074500DDC31C /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF697021BE074500DDC31C /* Const.swift */; };
+		99EF697721BE5A9F00DDC31C /* YPTitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF697321BE5A9E00DDC31C /* YPTitlesView.swift */; };
+		99EF697821BE5A9F00DDC31C /* YPContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF697421BE5A9E00DDC31C /* YPContentView.swift */; };
+		99EF697921BE5A9F00DDC31C /* YPPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF697521BE5A9E00DDC31C /* YPPageStyle.swift */; };
+		99EF697A21BE5A9F00DDC31C /* YPPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF697621BE5A9E00DDC31C /* YPPageView.swift */; };
+		99EF697D21BE5AEA00DDC31C /* UIColor-YPExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF697C21BE5AEA00DDC31C /* UIColor-YPExtension.swift */; };
+		99EF697F21BE5B4F00DDC31C /* YPWaterFallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF697E21BE5B4F00DDC31C /* YPWaterFallLayout.swift */; };
+		C55429950DDDA839B58D7B57 /* Pods_YPTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5915E1C28F60C261733007D /* Pods_YPTV.framework */; };
+		DED19D9B9E0620D82270D01B /* Pods_YPTVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE02A7F0A2CD2C5A8FF1B82 /* Pods_YPTVTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99EF692E21BE001400DDC31C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99EF691121BE001200DDC31C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99EF691821BE001200DDC31C;
+			remoteInfo = YPTV;
+		};
+		99EF693921BE001400DDC31C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99EF691121BE001200DDC31C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99EF691821BE001200DDC31C;
+			remoteInfo = YPTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BF58B8F34F32FBF219CE730 /* Pods-YPTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-YPTV/Pods-YPTV.release.xcconfig"; sourceTree = "<group>"; };
+		352B1DE5A8A2B048768BED97 /* Pods-YPTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPTVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YPTVUITests/Pods-YPTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		654A3E6F97D108AF762EED70 /* Pods-YPTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPTVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YPTVTests/Pods-YPTVTests.release.xcconfig"; sourceTree = "<group>"; };
+		847CF322631CBF7F5AFCDCC1 /* Pods-YPTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPTVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YPTVUITests/Pods-YPTVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		994D01EA21C0AA00007D2CF1 /* HomeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeType.swift; sourceTree = "<group>"; };
+		994D01ED21C0AB1A007D2CF1 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		994D01EF21C0AC1B007D2CF1 /* AnchorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorViewController.swift; sourceTree = "<group>"; };
+		994D01F121C0B8EA007D2CF1 /* types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = types.plist; sourceTree = "<group>"; };
+		994D01F421C0BBE0007D2CF1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		994D01F621C0DA4F007D2CF1 /* AnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		99806C2B21BE11AE00A76335 /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		99EF691921BE001200DDC31C /* YPTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EF691C21BE001200DDC31C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99EF691E21BE001200DDC31C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		99EF692121BE001200DDC31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99EF692321BE001400DDC31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99EF692621BE001400DDC31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99EF692821BE001400DDC31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99EF692D21BE001400DDC31C /* YPTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EF693121BE001400DDC31C /* YPTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPTVTests.swift; sourceTree = "<group>"; };
+		99EF693321BE001400DDC31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99EF693821BE001400DDC31C /* YPTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EF693C21BE001400DDC31C /* YPTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPTVUITests.swift; sourceTree = "<group>"; };
+		99EF693E21BE001400DDC31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99EF696521BE064200DDC31C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		99EF696721BE065900DDC31C /* RankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
+		99EF696921BE066800DDC31C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		99EF696B21BE067900DDC31C /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		99EF696D21BE069F00DDC31C /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		99EF697021BE074500DDC31C /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		99EF697321BE5A9E00DDC31C /* YPTitlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPTitlesView.swift; sourceTree = "<group>"; };
+		99EF697421BE5A9E00DDC31C /* YPContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPContentView.swift; sourceTree = "<group>"; };
+		99EF697521BE5A9E00DDC31C /* YPPageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPPageStyle.swift; sourceTree = "<group>"; };
+		99EF697621BE5A9E00DDC31C /* YPPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPPageView.swift; sourceTree = "<group>"; };
+		99EF697C21BE5AEA00DDC31C /* UIColor-YPExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-YPExtension.swift"; sourceTree = "<group>"; };
+		99EF697E21BE5B4F00DDC31C /* YPWaterFallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPWaterFallLayout.swift; sourceTree = "<group>"; };
+		A50E0B62C3D51EBF20FF7D3A /* Pods-YPTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YPTV/Pods-YPTV.debug.xcconfig"; sourceTree = "<group>"; };
+		B5915E1C28F60C261733007D /* Pods_YPTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB895E500620100062F87B82 /* Pods_YPTVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPTVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0983F99E3FE7E94A171596 /* Pods-YPTVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPTVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YPTVTests/Pods-YPTVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBE02A7F0A2CD2C5A8FF1B82 /* Pods_YPTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99EF691621BE001200DDC31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55429950DDDA839B58D7B57 /* Pods_YPTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EF692A21BE001400DDC31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED19D9B9E0620D82270D01B /* Pods_YPTVTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EF693521BE001400DDC31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DED41EE31958DFB853B3CA /* Pods_YPTVUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64F5C3DEF5E5934EA660D705 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A50E0B62C3D51EBF20FF7D3A /* Pods-YPTV.debug.xcconfig */,
+				0BF58B8F34F32FBF219CE730 /* Pods-YPTV.release.xcconfig */,
+				BF0983F99E3FE7E94A171596 /* Pods-YPTVTests.debug.xcconfig */,
+				654A3E6F97D108AF762EED70 /* Pods-YPTVTests.release.xcconfig */,
+				352B1DE5A8A2B048768BED97 /* Pods-YPTVUITests.debug.xcconfig */,
+				847CF322631CBF7F5AFCDCC1 /* Pods-YPTVUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		994D01EC21C0AB0D007D2CF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				994D01ED21C0AB1A007D2CF1 /* BaseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		994D01F321C0BBCA007D2CF1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				99EF697E21BE5B4F00DDC31C /* YPWaterFallLayout.swift */,
+				994D01F421C0BBE0007D2CF1 /* HomeViewModel.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		99806C2A21BE10E200A76335 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				99806C2B21BE11AE00A76335 /* NetworkTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		99EF691021BE001200DDC31C = {
+			isa = PBXGroup;
+			children = (
+				99EF691B21BE001200DDC31C /* YPTV */,
+				99EF693021BE001400DDC31C /* YPTVTests */,
+				99EF693B21BE001400DDC31C /* YPTVUITests */,
+				99EF691A21BE001200DDC31C /* Products */,
+				64F5C3DEF5E5934EA660D705 /* Pods */,
+				B098A03758F8FFBB09F9C3F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99EF691A21BE001200DDC31C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99EF691921BE001200DDC31C /* YPTV.app */,
+				99EF692D21BE001400DDC31C /* YPTVTests.xctest */,
+				99EF693821BE001400DDC31C /* YPTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99EF691B21BE001200DDC31C /* YPTV */ = {
+			isa = PBXGroup;
+			children = (
+				99EF698021BE6BB400DDC31C /* Resource */,
+				99EF694B21BE037F00DDC31C /* Classes */,
+				99EF694A21BE037200DDC31C /* Resource */,
+				99EF691C21BE001200DDC31C /* AppDelegate.swift */,
+				99EF692021BE001200DDC31C /* Main.storyboard */,
+				99EF692321BE001400DDC31C /* Assets.xcassets */,
+				99EF692521BE001400DDC31C /* LaunchScreen.storyboard */,
+				99EF692821BE001400DDC31C /* Info.plist */,
+			);
+			path = YPTV;
+			sourceTree = "<group>";
+		};
+		99EF693021BE001400DDC31C /* YPTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				99EF693121BE001400DDC31C /* YPTVTests.swift */,
+				99EF693321BE001400DDC31C /* Info.plist */,
+			);
+			path = YPTVTests;
+			sourceTree = "<group>";
+		};
+		99EF693B21BE001400DDC31C /* YPTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99EF693C21BE001400DDC31C /* YPTVUITests.swift */,
+				99EF693E21BE001400DDC31C /* Info.plist */,
+			);
+			path = YPTVUITests;
+			sourceTree = "<group>";
+		};
+		99EF694A21BE037200DDC31C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		99EF694B21BE037F00DDC31C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				99806C2A21BE10E200A76335 /* Tools */,
+				99EF695221BE03C400DDC31C /* Profile */,
+				99EF695121BE03B900DDC31C /* Discover */,
+				99EF695021BE03B200DDC31C /* Rank */,
+				99EF694F21BE03A200DDC31C /* Home */,
+				99EF694E21BE039900DDC31C /* Live */,
+				99EF694D21BE039300DDC31C /* Base */,
+				99EF694C21BE038B00DDC31C /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		99EF694C21BE038B00DDC31C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				99EF697B21BE5ACE00DDC31C /* Extension */,
+				99EF697221BE5A5300DDC31C /* YPPageView */,
+				99EF696F21BE071C00DDC31C /* Common */,
+				99EF696421BE046300DDC31C /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		99EF694D21BE039300DDC31C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				994D01EC21C0AB0D007D2CF1 /* Model */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		99EF694E21BE039900DDC31C /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				99EF695F21BE045600DDC31C /* Controller */,
+				99EF696021BE045600DDC31C /* Model */,
+				99EF696121BE045600DDC31C /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		99EF694F21BE03A200DDC31C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				994D01F321C0BBCA007D2CF1 /* Other */,
+				99EF695D21BE044C00DDC31C /* Controller */,
+				99EF695E21BE044C00DDC31C /* Model */,
+				99EF695C21BE044C00DDC31C /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		99EF695021BE03B200DDC31C /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				99EF695921BE043B00DDC31C /* Controller */,
+				99EF695A21BE043B00DDC31C /* Model */,
+				99EF695B21BE043B00DDC31C /* View */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		99EF695121BE03B900DDC31C /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				99EF695721BE043200DDC31C /* Controller */,
+				99EF695821BE043200DDC31C /* Model */,
+				99EF695621BE043200DDC31C /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		99EF695221BE03C400DDC31C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				99EF695521BE03FA00DDC31C /* Controller */,
+				99EF695421BE03F500DDC31C /* Model */,
+				99EF695321BE03EF00DDC31C /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		99EF695321BE03EF00DDC31C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99EF695421BE03F500DDC31C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99EF695521BE03FA00DDC31C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99EF696921BE066800DDC31C /* ProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99EF695621BE043200DDC31C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99EF695721BE043200DDC31C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99EF696B21BE067900DDC31C /* DiscoverViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99EF695821BE043200DDC31C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99EF695921BE043B00DDC31C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99EF696721BE065900DDC31C /* RankViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99EF695A21BE043B00DDC31C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99EF695B21BE043B00DDC31C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99EF695C21BE044C00DDC31C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99EF695D21BE044C00DDC31C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99EF696521BE064200DDC31C /* HomeViewController.swift */,
+				994D01EF21C0AC1B007D2CF1 /* AnchorViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99EF695E21BE044C00DDC31C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				994D01EA21C0AA00007D2CF1 /* HomeType.swift */,
+				994D01F621C0DA4F007D2CF1 /* AnchorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99EF695F21BE045600DDC31C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99EF696D21BE069F00DDC31C /* LiveViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99EF696021BE045600DDC31C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99EF696121BE045600DDC31C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99EF696421BE046300DDC31C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99EF691E21BE001200DDC31C /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99EF696F21BE071C00DDC31C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				99EF697021BE074500DDC31C /* Const.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		99EF697221BE5A5300DDC31C /* YPPageView */ = {
+			isa = PBXGroup;
+			children = (
+				99EF697421BE5A9E00DDC31C /* YPContentView.swift */,
+				99EF697521BE5A9E00DDC31C /* YPPageStyle.swift */,
+				99EF697621BE5A9E00DDC31C /* YPPageView.swift */,
+				99EF697321BE5A9E00DDC31C /* YPTitlesView.swift */,
+			);
+			path = YPPageView;
+			sourceTree = "<group>";
+		};
+		99EF697B21BE5ACE00DDC31C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				99EF697C21BE5AEA00DDC31C /* UIColor-YPExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		99EF698021BE6BB400DDC31C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				994D01F121C0B8EA007D2CF1 /* types.plist */,
+			);
+			name = Resource;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B098A03758F8FFBB09F9C3F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5915E1C28F60C261733007D /* Pods_YPTV.framework */,
+				EBE02A7F0A2CD2C5A8FF1B82 /* Pods_YPTVTests.framework */,
+				BB895E500620100062F87B82 /* Pods_YPTVUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99EF691821BE001200DDC31C /* YPTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EF694121BE001400DDC31C /* Build configuration list for PBXNativeTarget "YPTV" */;
+			buildPhases = (
+				58161C1ABF8D5406A8692E2B /* [CP] Check Pods Manifest.lock */,
+				99EF691521BE001200DDC31C /* Sources */,
+				99EF691621BE001200DDC31C /* Frameworks */,
+				99EF691721BE001200DDC31C /* Resources */,
+				9E14BFFB3B50D852A2E53B5F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPTV;
+			productName = YPTV;
+			productReference = 99EF691921BE001200DDC31C /* YPTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99EF692C21BE001400DDC31C /* YPTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EF694421BE001400DDC31C /* Build configuration list for PBXNativeTarget "YPTVTests" */;
+			buildPhases = (
+				8B2C0F06AD8BCAE62D4FD96A /* [CP] Check Pods Manifest.lock */,
+				99EF692921BE001400DDC31C /* Sources */,
+				99EF692A21BE001400DDC31C /* Frameworks */,
+				99EF692B21BE001400DDC31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99EF692F21BE001400DDC31C /* PBXTargetDependency */,
+			);
+			name = YPTVTests;
+			productName = YPTVTests;
+			productReference = 99EF692D21BE001400DDC31C /* YPTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99EF693721BE001400DDC31C /* YPTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EF694721BE001400DDC31C /* Build configuration list for PBXNativeTarget "YPTVUITests" */;
+			buildPhases = (
+				79C2A711BB17F2945B7EDBE9 /* [CP] Check Pods Manifest.lock */,
+				99EF693421BE001400DDC31C /* Sources */,
+				99EF693521BE001400DDC31C /* Frameworks */,
+				99EF693621BE001400DDC31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99EF693A21BE001400DDC31C /* PBXTargetDependency */,
+			);
+			name = YPTVUITests;
+			productName = YPTVUITests;
+			productReference = 99EF693821BE001400DDC31C /* YPTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99EF691121BE001200DDC31C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = LYP;
+				TargetAttributes = {
+					99EF691821BE001200DDC31C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					99EF692C21BE001400DDC31C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 99EF691821BE001200DDC31C;
+					};
+					99EF693721BE001400DDC31C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 99EF691821BE001200DDC31C;
+					};
+				};
+			};
+			buildConfigurationList = 99EF691421BE001200DDC31C /* Build configuration list for PBXProject "YPTV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99EF691021BE001200DDC31C;
+			productRefGroup = 99EF691A21BE001200DDC31C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99EF691821BE001200DDC31C /* YPTV */,
+				99EF692C21BE001400DDC31C /* YPTVTests */,
+				99EF693721BE001400DDC31C /* YPTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99EF691721BE001200DDC31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EF692721BE001400DDC31C /* LaunchScreen.storyboard in Resources */,
+				99EF692421BE001400DDC31C /* Assets.xcassets in Resources */,
+				994D01F221C0B8EA007D2CF1 /* types.plist in Resources */,
+				99EF692221BE001200DDC31C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EF692B21BE001400DDC31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EF693621BE001400DDC31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58161C1ABF8D5406A8692E2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YPTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79C2A711BB17F2945B7EDBE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YPTVUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B2C0F06AD8BCAE62D4FD96A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YPTVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E14BFFB3B50D852A2E53B5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YPTV/Pods-YPTV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YPTV/Pods-YPTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99EF691521BE001200DDC31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994D01F521C0BBE0007D2CF1 /* HomeViewModel.swift in Sources */,
+				99EF691F21BE001200DDC31C /* MainViewController.swift in Sources */,
+				99EF697F21BE5B4F00DDC31C /* YPWaterFallLayout.swift in Sources */,
+				99EF697821BE5A9F00DDC31C /* YPContentView.swift in Sources */,
+				994D01F021C0AC1B007D2CF1 /* AnchorViewController.swift in Sources */,
+				99806C2C21BE11AE00A76335 /* NetworkTool.swift in Sources */,
+				994D01EB21C0AA00007D2CF1 /* HomeType.swift in Sources */,
+				99EF691D21BE001200DDC31C /* AppDelegate.swift in Sources */,
+				99EF696E21BE069F00DDC31C /* LiveViewController.swift in Sources */,
+				99EF697721BE5A9F00DDC31C /* YPTitlesView.swift in Sources */,
+				99EF696A21BE066800DDC31C /* ProfileViewController.swift in Sources */,
+				99EF696C21BE067900DDC31C /* DiscoverViewController.swift in Sources */,
+				99EF697121BE074500DDC31C /* Const.swift in Sources */,
+				994D01EE21C0AB1A007D2CF1 /* BaseModel.swift in Sources */,
+				99EF696821BE065900DDC31C /* RankViewController.swift in Sources */,
+				99EF696621BE064200DDC31C /* HomeViewController.swift in Sources */,
+				994D01F721C0DA4F007D2CF1 /* AnchorModel.swift in Sources */,
+				99EF697A21BE5A9F00DDC31C /* YPPageView.swift in Sources */,
+				99EF697D21BE5AEA00DDC31C /* UIColor-YPExtension.swift in Sources */,
+				99EF697921BE5A9F00DDC31C /* YPPageStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EF692921BE001400DDC31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EF693221BE001400DDC31C /* YPTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EF693421BE001400DDC31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EF693D21BE001400DDC31C /* YPTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99EF692F21BE001400DDC31C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99EF691821BE001200DDC31C /* YPTV */;
+			targetProxy = 99EF692E21BE001400DDC31C /* PBXContainerItemProxy */;
+		};
+		99EF693A21BE001400DDC31C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99EF691821BE001200DDC31C /* YPTV */;
+			targetProxy = 99EF693921BE001400DDC31C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99EF692021BE001200DDC31C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99EF692121BE001200DDC31C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99EF692521BE001400DDC31C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99EF692621BE001400DDC31C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99EF693F21BE001400DDC31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99EF694021BE001400DDC31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99EF694221BE001400DDC31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50E0B62C3D51EBF20FF7D3A /* Pods-YPTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = YPTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.YPTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99EF694321BE001400DDC31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF58B8F34F32FBF219CE730 /* Pods-YPTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = YPTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.YPTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99EF694521BE001400DDC31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF0983F99E3FE7E94A171596 /* Pods-YPTVTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = YPTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.YPTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPTV.app/YPTV";
+			};
+			name = Debug;
+		};
+		99EF694621BE001400DDC31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654A3E6F97D108AF762EED70 /* Pods-YPTVTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = YPTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.YPTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPTV.app/YPTV";
+			};
+			name = Release;
+		};
+		99EF694821BE001400DDC31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352B1DE5A8A2B048768BED97 /* Pods-YPTVUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = YPTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.YPTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YPTV;
+			};
+			name = Debug;
+		};
+		99EF694921BE001400DDC31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847CF322631CBF7F5AFCDCC1 /* Pods-YPTVUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = YPTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.YPTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YPTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99EF691421BE001200DDC31C /* Build configuration list for PBXProject "YPTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EF693F21BE001400DDC31C /* Debug */,
+				99EF694021BE001400DDC31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EF694121BE001400DDC31C /* Build configuration list for PBXNativeTarget "YPTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EF694221BE001400DDC31C /* Debug */,
+				99EF694321BE001400DDC31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EF694421BE001400DDC31C /* Build configuration list for PBXNativeTarget "YPTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EF694521BE001400DDC31C /* Debug */,
+				99EF694621BE001400DDC31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EF694721BE001400DDC31C /* Build configuration list for PBXNativeTarget "YPTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EF694821BE001400DDC31C /* Debug */,
+				99EF694921BE001400DDC31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99EF691121BE001200DDC31C /* Project object */;
+}

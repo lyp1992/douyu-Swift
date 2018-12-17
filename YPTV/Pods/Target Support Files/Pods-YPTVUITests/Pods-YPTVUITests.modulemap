@@ -1,0 +1,6 @@
+framework module Pods_YPTVUITests {
+  umbrella header "Pods-YPTVUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

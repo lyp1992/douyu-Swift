@@ -1,0 +1,6 @@
+framework module Pods_YPTVTests {
+  umbrella header "Pods-YPTVTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
