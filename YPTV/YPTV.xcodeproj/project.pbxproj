@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		26DED41EE31958DFB853B3CA /* Pods_YPTVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB895E500620100062F87B82 /* Pods_YPTVUITests.framework */; };
+		99218B0521CB42E300DBF1A7 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99218B0321CB42E300DBF1A7 /* RoomViewController.swift */; };
+		99218B0621CB42E300DBF1A7 /* RoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99218B0421CB42E300DBF1A7 /* RoomViewController.xib */; };
 		994D01EB21C0AA00007D2CF1 /* HomeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D01EA21C0AA00007D2CF1 /* HomeType.swift */; };
 		994D01EE21C0AB1A007D2CF1 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D01ED21C0AB1A007D2CF1 /* BaseModel.swift */; };
 		994D01F021C0AC1B007D2CF1 /* AnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D01EF21C0AC1B007D2CF1 /* AnchorViewController.swift */; };
 		994D01F221C0B8EA007D2CF1 /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = 994D01F121C0B8EA007D2CF1 /* types.plist */; };
 		994D01F521C0BBE0007D2CF1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D01F421C0BBE0007D2CF1 /* HomeViewModel.swift */; };
 		994D01F721C0DA4F007D2CF1 /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D01F621C0DA4F007D2CF1 /* AnchorModel.swift */; };
+		994F154C21C9F127008A72CA /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F154A21C9F127008A72CA /* HomeViewCell.swift */; };
+		994F154D21C9F127008A72CA /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 994F154B21C9F127008A72CA /* HomeViewCell.xib */; };
+		994F154F21C9F5B2008A72CA /* KingfisherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F154E21C9F5B2008A72CA /* KingfisherExtension.swift */; };
 		99806C2C21BE11AE00A76335 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99806C2B21BE11AE00A76335 /* NetworkTool.swift */; };
 		99EF691D21BE001200DDC31C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF691C21BE001200DDC31C /* AppDelegate.swift */; };
 		99EF691F21BE001200DDC31C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF691E21BE001200DDC31C /* MainViewController.swift */; };
@@ -60,12 +65,17 @@
 		352B1DE5A8A2B048768BED97 /* Pods-YPTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPTVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YPTVUITests/Pods-YPTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		654A3E6F97D108AF762EED70 /* Pods-YPTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPTVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YPTVTests/Pods-YPTVTests.release.xcconfig"; sourceTree = "<group>"; };
 		847CF322631CBF7F5AFCDCC1 /* Pods-YPTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPTVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YPTVUITests/Pods-YPTVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		99218B0321CB42E300DBF1A7 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		99218B0421CB42E300DBF1A7 /* RoomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomViewController.xib; sourceTree = "<group>"; };
 		994D01EA21C0AA00007D2CF1 /* HomeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeType.swift; sourceTree = "<group>"; };
 		994D01ED21C0AB1A007D2CF1 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		994D01EF21C0AC1B007D2CF1 /* AnchorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorViewController.swift; sourceTree = "<group>"; };
 		994D01F121C0B8EA007D2CF1 /* types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = types.plist; sourceTree = "<group>"; };
 		994D01F421C0BBE0007D2CF1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		994D01F621C0DA4F007D2CF1 /* AnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		994F154A21C9F127008A72CA /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		994F154B21C9F127008A72CA /* HomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+		994F154E21C9F5B2008A72CA /* KingfisherExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherExtension.swift; sourceTree = "<group>"; };
 		99806C2B21BE11AE00A76335 /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
 		99EF691921BE001200DDC31C /* YPTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EF691C21BE001200DDC31C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +150,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		99218B0221CB42BA00DBF1A7 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				99218B0321CB42E300DBF1A7 /* RoomViewController.swift */,
+				99218B0421CB42E300DBF1A7 /* RoomViewController.xib */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
 		994D01EC21C0AB0D007D2CF1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				99806C2B21BE11AE00A76335 /* NetworkTool.swift */,
+				994F154E21C9F5B2008A72CA /* KingfisherExtension.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -274,6 +294,7 @@
 		99EF694F21BE03A200DDC31C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				99218B0221CB42BA00DBF1A7 /* Room */,
 				994D01F321C0BBCA007D2CF1 /* Other */,
 				99EF695D21BE044C00DDC31C /* Controller */,
 				99EF695E21BE044C00DDC31C /* Model */,
@@ -381,6 +402,8 @@
 		99EF695C21BE044C00DDC31C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				994F154A21C9F127008A72CA /* HomeViewCell.swift */,
+				994F154B21C9F127008A72CA /* HomeViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -588,8 +611,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				99EF692721BE001400DDC31C /* LaunchScreen.storyboard in Resources */,
+				99218B0621CB42E300DBF1A7 /* RoomViewController.xib in Resources */,
 				99EF692421BE001400DDC31C /* Assets.xcassets in Resources */,
 				994D01F221C0B8EA007D2CF1 /* types.plist in Resources */,
+				994F154D21C9F127008A72CA /* HomeViewCell.xib in Resources */,
 				99EF692221BE001200DDC31C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -694,6 +719,7 @@
 			files = (
 				994D01F521C0BBE0007D2CF1 /* HomeViewModel.swift in Sources */,
 				99EF691F21BE001200DDC31C /* MainViewController.swift in Sources */,
+				994F154C21C9F127008A72CA /* HomeViewCell.swift in Sources */,
 				99EF697F21BE5B4F00DDC31C /* YPWaterFallLayout.swift in Sources */,
 				99EF697821BE5A9F00DDC31C /* YPContentView.swift in Sources */,
 				994D01F021C0AC1B007D2CF1 /* AnchorViewController.swift in Sources */,
@@ -708,6 +734,8 @@
 				994D01EE21C0AB1A007D2CF1 /* BaseModel.swift in Sources */,
 				99EF696821BE065900DDC31C /* RankViewController.swift in Sources */,
 				99EF696621BE064200DDC31C /* HomeViewController.swift in Sources */,
+				99218B0521CB42E300DBF1A7 /* RoomViewController.swift in Sources */,
+				994F154F21C9F5B2008A72CA /* KingfisherExtension.swift in Sources */,
 				994D01F721C0DA4F007D2CF1 /* AnchorModel.swift in Sources */,
 				99EF697A21BE5A9F00DDC31C /* YPPageView.swift in Sources */,
 				99EF697D21BE5AEA00DDC31C /* UIColor-YPExtension.swift in Sources */,

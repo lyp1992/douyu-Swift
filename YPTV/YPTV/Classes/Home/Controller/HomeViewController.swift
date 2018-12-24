@@ -60,7 +60,6 @@ extension HomeViewController {
         for dict in homeTypes {
             let anchorVC = AnchorViewController()
             anchorVC.homeType = dict
-            anchorVC.view.backgroundColor = UIColor.randomColor
             childVCs.append(anchorVC)
         }
         
