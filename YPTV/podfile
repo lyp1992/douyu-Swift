@@ -7,7 +7,7 @@ target 'YPTV' do
 
 pod 'Alamofire', '~> 4.7.3'
 pod 'Kingfisher','~> 4.6.0'
-
+pod 'ProtocolBuffers-Swift'
   # Pods for YPTV
 
   target 'YPTVTests' do

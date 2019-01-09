@@ -41,7 +41,7 @@ class MainViewController: UITabBarController {
     vc.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor : UIColor.orange], for: UIControlState.selected);
         
         // 2.给子控制器包装一个导航控制器
-        let nav = UINavigationController()
+        let nav = YPNavigationController()
         nav.addChildViewController(vc)
         
         // 2.将导航控制器添加到当前控制器上

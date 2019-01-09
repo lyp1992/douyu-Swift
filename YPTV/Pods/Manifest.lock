@@ -1,20 +1,24 @@
 PODS:
   - Alamofire (4.7.3)
   - Kingfisher (4.6.4)
+  - ProtocolBuffers-Swift (4.0.6)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7.3)
   - Kingfisher (~> 4.6.0)
+  - ProtocolBuffers-Swift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - Kingfisher
+    - ProtocolBuffers-Swift
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   Kingfisher: 68498a706e46c2a050b0c9572f100e5db407f6e0
+  ProtocolBuffers-Swift: 09b5cfcc641ab512d6aaa1d2cc3879a40432052c
 
-PODFILE CHECKSUM: f04c51a8916a64e7b6f93ad607284719ba686ab9
+PODFILE CHECKSUM: b21ddffd65cc700b1a9abcfaf17a014df9fd87fc
 
 COCOAPODS: 1.5.3

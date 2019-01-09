@@ -74,7 +74,10 @@ extension AnchorViewController : UICollectionViewDelegate,UICollectionViewDataSo
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-       NSLog("点击 第%d个", indexPath.item)
+       
+        let roomVC = RoomViewController()
+        navigationController?.pushViewController(roomVC, animated: true)
+        
     }
     
 //    设置宽度

@@ -12,6 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RoomViewController" customModule="YPTV" customModuleProvider="target">
             <connections>
+                <outlet property="bgImageV" destination="90b-oB-8Nk" id="803-lA-inF"/>
+                <outlet property="msgLabel" destination="j6j-kf-QRu" id="3kQ-xD-fMz"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -29,22 +31,37 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCa-HR-cil">
                             <rect key="frame" x="0.0" y="0.0" width="75" height="44"/>
                             <state key="normal" image="room_btn_chat"/>
+                            <connections>
+                                <action selector="stackViewClick:" destination="-1" eventType="touchUpInside" id="zH5-lH-p6R"/>
+                            </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uL-KA-xdl">
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uL-KA-xdl">
                             <rect key="frame" x="75" y="0.0" width="75" height="44"/>
                             <state key="normal" image="menu_btn_share"/>
+                            <connections>
+                                <action selector="stackViewClick:" destination="-1" eventType="touchUpInside" id="ZCb-8f-hw3"/>
+                            </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bl8-Hy-efA">
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bl8-Hy-efA">
                             <rect key="frame" x="150" y="0.0" width="75" height="44"/>
                             <state key="normal" image="room_btn_gift"/>
+                            <connections>
+                                <action selector="stackViewClick:" destination="-1" eventType="touchUpInside" id="6Tg-q8-Mza"/>
+                            </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRZ-qX-fbh">
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRZ-qX-fbh">
                             <rect key="frame" x="225" y="0.0" width="75" height="44"/>
                             <state key="normal" image="room_btn_more"/>
+                            <connections>
+                                <action selector="stackViewClick:" destination="-1" eventType="touchUpInside" id="m4y-1a-Vj6"/>
+                            </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nv7-L9-PF8">
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nv7-L9-PF8">
                             <rect key="frame" x="300" y="0.0" width="75" height="44"/>
                             <state key="normal" image="room_btn_qfstar"/>
+                            <connections>
+                                <action selector="stackViewClick:" destination="-1" eventType="touchUpInside" id="yEO-Dq-R4P"/>
+                            </connections>
                         </button>
                     </subviews>
                     <constraints>
@@ -110,28 +127,68 @@
                         <constraint firstItem="xdy-AO-iia" firstAttribute="leading" secondItem="ctL-u6-qVf" secondAttribute="leading" constant="2" id="yJn-Zr-f6R"/>
                     </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ot-ud-Bn7" userLabel="关注">
+                    <rect key="frame" x="260" y="30" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="BEx-G4-Xut"/>
+                        <constraint firstAttribute="width" constant="45" id="yWb-iU-aJt"/>
+                    </constraints>
+                    <state key="normal" image="zhibo_btn_people"/>
+                    <connections>
+                        <action selector="FocusOn:" destination="-1" eventType="touchUpInside" id="vcz-7r-TZ1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pAf-8z-zt2" userLabel="关闭">
+                    <rect key="frame" x="315" y="30" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="80i-MP-eTY"/>
+                        <constraint firstAttribute="width" constant="45" id="qYW-Us-web"/>
+                    </constraints>
+                    <state key="normal" image="menu_btn_close"/>
+                    <connections>
+                        <action selector="exitBtnClick:" destination="-1" eventType="touchUpInside" id="CG9-CW-Sgk"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6j-kf-QRu">
+                    <rect key="frame" x="61.5" y="301" width="252" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="252" id="7YD-Zu-tD0"/>
+                        <constraint firstAttribute="height" constant="65" id="nrR-Hs-CkE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="90b-oB-8Nk" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="6w9-jZ-l1j"/>
+                <constraint firstItem="pAf-8z-zt2" firstAttribute="leading" secondItem="5Ot-ud-Bn7" secondAttribute="trailing" constant="10" id="P3j-Kf-v9t"/>
+                <constraint firstItem="j6j-kf-QRu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="QnL-4S-b5i"/>
+                <constraint firstItem="j6j-kf-QRu" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="RGD-RD-Eh2"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="90b-oB-8Nk" secondAttribute="trailing" id="Vjc-sU-Lkz"/>
                 <constraint firstItem="ctL-u6-qVf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="Y16-RD-gXA"/>
                 <constraint firstItem="90b-oB-8Nk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="doC-DJ-WSM"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Fys-H0-Cn1" secondAttribute="trailing" id="f9c-Dj-lbW"/>
+                <constraint firstItem="5Ot-ud-Bn7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="fax-JA-ZTJ"/>
+                <constraint firstItem="Fys-H0-Cn1" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="kvh-dw-Bjo"/>
                 <constraint firstItem="ctL-u6-qVf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="nEY-QC-1Ir"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pAf-8z-zt2" secondAttribute="trailing" constant="15" id="pAB-dr-0A6"/>
                 <constraint firstItem="Fys-H0-Cn1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="sEu-1Y-Xb9"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="90b-oB-8Nk" secondAttribute="bottom" id="tWE-Zy-FQS"/>
-                <constraint firstItem="Fys-H0-Cn1" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="y1a-bO-c2F"/>
+                <constraint firstItem="pAf-8z-zt2" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="yJP-sI-cQ3"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="-130.40000000000001" y="124.58770614692655"/>
+            <point key="canvasLocation" x="-135.19999999999999" y="105.69715142428787"/>
         </view>
     </objects>
     <resources>
+        <image name="menu_btn_close" width="16" height="16"/>
         <image name="menu_btn_share" width="25" height="25"/>
         <image name="room_btn_chat" width="23" height="23"/>
         <image name="room_btn_gift" width="23" height="24"/>
         <image name="room_btn_more" width="23" height="23"/>
         <image name="room_btn_qfstar" width="23" height="23"/>
+        <image name="zhibo_btn_people" width="20" height="16"/>
     </resources>
 </document>
