@@ -35,7 +35,7 @@ extension YPPageView {
         
 //        创建titleView
         let titleFrame = CGRect(x: 0, y: 0, width: self.bounds.size.width, height: style.titleHeight)
-        let titleView = YPTitlesView(frame: titleFrame, style: style, titles: titles)
+        let titleView = YPTitleView(frame: titleFrame, titles: titles, style: style)
         titleView.backgroundColor = UIColor.gray
         addSubview(titleView)
 //        创建contentView
@@ -46,6 +46,6 @@ extension YPPageView {
         
 //        两个相互交互
         titleView.delegate = contentView
-        contentView.delegate = titleView
+        contentView.delegate = titleView as? YPContentViewDelegate
     }
 }

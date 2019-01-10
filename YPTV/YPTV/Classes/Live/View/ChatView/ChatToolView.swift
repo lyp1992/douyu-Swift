@@ -20,6 +20,7 @@ class ChatToolView: UIView ,NibLoadable{
     @IBOutlet weak var sendButton: UIButton!
     
     weak var delegate : ChatToolViewDelegate?
+    fileprivate lazy var emoticonView : EmoticonView = EmoticonView(frame: CGRect(x: 0, y: 0, width: kScreenW, height: 250))
     fileprivate lazy var emoticonBtn : UIButton = UIButton(frame: CGRect(x: 0, y: 0, width: 32, height: 32))
     
     override func awakeFromNib() {
@@ -64,11 +65,32 @@ extension ChatToolView {
         msgTF.rightViewMode = .always
         msgTF.allowsEditingTextAttributes = true
         
+//        2. 设置emoticon的闭包
+        emoticonView.emoticonClickCallback = { [weak self] emoticon in
+ 
+//            2.1 点击了删除
+            if emoticon.emoticonName == "delete-n" {
+                self?.msgTF.deleteBackward()
+                return
+            }
+//            2.2 获取光标位置
+            guard let range = self?.msgTF.selectedTextRange else {return}
+            self?.msgTF.replace(range, withText: emoticon.emoticonName)
+        }
         
     }
     
     @objc fileprivate func emoticonBtnClick(_ sender:UIButton){
-        print("hello world")
+       
+        sender.isSelected = !sender.isSelected
+        
+//        切换键盘
+        let range = msgTF.selectedTextRange
+        msgTF.resignFirstResponder()
+        msgTF.inputView = msgTF.inputView == nil ? emoticonView : nil
+        msgTF.becomeFirstResponder()
+        msgTF.selectedTextRange = range
+        
     }
     
 }

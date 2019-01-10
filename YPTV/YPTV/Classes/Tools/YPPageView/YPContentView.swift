@@ -145,11 +145,12 @@ extension YPContentView : UICollectionViewDelegate {
 }
 
 extension YPContentView : YPTitleViewDelegate {
-    func titleView(_ titleView: YPTitlesView, currentIndex: Int) {
+    func titleView(_ titleView: YPTitleView, selectedIndex index: Int) {
         isForbidDelegate = true
-//        取出当前item的indexopath
-        let indexPath = IndexPath(item: currentIndex, section: 0)
+        //        取出当前item的indexopath
+        let indexPath = IndexPath(item: index, section: 0)
         
         collectionView.scrollToItem(at: indexPath, at: .left, animated: true)
     }
+  
 }

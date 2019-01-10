@@ -42,6 +42,8 @@
 		995FBE6D21E5F4970059A396 /* EmoticonViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 995FBE6B21E5F4970059A396 /* EmoticonViewCell.xib */; };
 		995FBE6F21E5F5980059A396 /* EmoticonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995FBE6E21E5F5980059A396 /* EmoticonView.swift */; };
 		99806C2C21BE11AE00A76335 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99806C2B21BE11AE00A76335 /* NetworkTool.swift */; };
+		9987905721E6E92E0011585A /* YPPageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987905621E6E92E0011585A /* YPPageCollectionView.swift */; };
+		9987905921E6E9530011585A /* YPPageCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987905821E6E9530011585A /* YPPageCollectionLayout.swift */; };
 		99EF691D21BE001200DDC31C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF691C21BE001200DDC31C /* AppDelegate.swift */; };
 		99EF691F21BE001200DDC31C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF691E21BE001200DDC31C /* MainViewController.swift */; };
 		99EF692221BE001200DDC31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99EF692021BE001200DDC31C /* Main.storyboard */; };
@@ -55,7 +57,7 @@
 		99EF696C21BE067900DDC31C /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF696B21BE067900DDC31C /* DiscoverViewController.swift */; };
 		99EF696E21BE069F00DDC31C /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF696D21BE069F00DDC31C /* LiveViewController.swift */; };
 		99EF697121BE074500DDC31C /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF697021BE074500DDC31C /* Const.swift */; };
-		99EF697721BE5A9F00DDC31C /* YPTitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF697321BE5A9E00DDC31C /* YPTitlesView.swift */; };
+		99EF697721BE5A9F00DDC31C /* YPTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF697321BE5A9E00DDC31C /* YPTitleView.swift */; };
 		99EF697821BE5A9F00DDC31C /* YPContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF697421BE5A9E00DDC31C /* YPContentView.swift */; };
 		99EF697921BE5A9F00DDC31C /* YPPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF697521BE5A9E00DDC31C /* YPPageStyle.swift */; };
 		99EF697A21BE5A9F00DDC31C /* YPPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF697621BE5A9E00DDC31C /* YPPageView.swift */; };
@@ -121,6 +123,8 @@
 		995FBE6B21E5F4970059A396 /* EmoticonViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmoticonViewCell.xib; sourceTree = "<group>"; };
 		995FBE6E21E5F5980059A396 /* EmoticonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonView.swift; sourceTree = "<group>"; };
 		99806C2B21BE11AE00A76335 /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		9987905621E6E92E0011585A /* YPPageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPPageCollectionView.swift; sourceTree = "<group>"; };
+		9987905821E6E9530011585A /* YPPageCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPPageCollectionLayout.swift; sourceTree = "<group>"; };
 		99EF691921BE001200DDC31C /* YPTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EF691C21BE001200DDC31C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99EF691E21BE001200DDC31C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -140,7 +144,7 @@
 		99EF696B21BE067900DDC31C /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		99EF696D21BE069F00DDC31C /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		99EF697021BE074500DDC31C /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
-		99EF697321BE5A9E00DDC31C /* YPTitlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPTitlesView.swift; sourceTree = "<group>"; };
+		99EF697321BE5A9E00DDC31C /* YPTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPTitleView.swift; sourceTree = "<group>"; };
 		99EF697421BE5A9E00DDC31C /* YPContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPContentView.swift; sourceTree = "<group>"; };
 		99EF697521BE5A9E00DDC31C /* YPPageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPPageStyle.swift; sourceTree = "<group>"; };
 		99EF697621BE5A9E00DDC31C /* YPPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPPageView.swift; sourceTree = "<group>"; };
@@ -558,7 +562,9 @@
 				99EF697421BE5A9E00DDC31C /* YPContentView.swift */,
 				99EF697521BE5A9E00DDC31C /* YPPageStyle.swift */,
 				99EF697621BE5A9E00DDC31C /* YPPageView.swift */,
-				99EF697321BE5A9E00DDC31C /* YPTitlesView.swift */,
+				99EF697321BE5A9E00DDC31C /* YPTitleView.swift */,
+				9987905621E6E92E0011585A /* YPPageCollectionView.swift */,
+				9987905821E6E9530011585A /* YPPageCollectionLayout.swift */,
 			);
 			path = YPPageView;
 			sourceTree = "<group>";
@@ -814,6 +820,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				994D01F521C0BBE0007D2CF1 /* HomeViewModel.swift in Sources */,
+				9987905921E6E9530011585A /* YPPageCollectionLayout.swift in Sources */,
 				995FBE6F21E5F5980059A396 /* EmoticonView.swift in Sources */,
 				995FBE5121E593C00059A396 /* Immessage.proto.swift in Sources */,
 				995FBE6C21E5F4970059A396 /* EmoticonViewCell.swift in Sources */,
@@ -830,13 +837,14 @@
 				995FBE4A21E593C00059A396 /* yudpsocket.c in Sources */,
 				99EF691D21BE001200DDC31C /* AppDelegate.swift in Sources */,
 				99EF696E21BE069F00DDC31C /* LiveViewController.swift in Sources */,
-				99EF697721BE5A9F00DDC31C /* YPTitlesView.swift in Sources */,
+				99EF697721BE5A9F00DDC31C /* YPTitleView.swift in Sources */,
 				995FBE4E21E593C00059A396 /* ytcpsocket.swift in Sources */,
 				99EF696A21BE066800DDC31C /* ProfileViewController.swift in Sources */,
 				99EF696C21BE067900DDC31C /* DiscoverViewController.swift in Sources */,
 				995FBE4C21E593C00059A396 /* ytcpsocket.c in Sources */,
 				99EF697121BE074500DDC31C /* Const.swift in Sources */,
 				994D01EE21C0AB1A007D2CF1 /* BaseModel.swift in Sources */,
+				9987905721E6E92E0011585A /* YPPageCollectionView.swift in Sources */,
 				995FBE5321E59DF60059A396 /* YPNavigationController.swift in Sources */,
 				995FBE4B21E593C00059A396 /* yudpsocket.swift in Sources */,
 				995FBE5821E5CB1A0059A396 /* ChatToolView.swift in Sources */,
